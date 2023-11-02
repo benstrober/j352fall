@@ -1,0 +1,96 @@
+header {
+    text-align: center;
+}
+
+.pull-quote-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/*.pull-quote-section > p {
+    margin-right:50px;
+}
+*/
+.quote {
+    flex: 1;
+    background-color: #2F2E2D;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.quote p {
+    font-size: 16px; /* Adjust the font size as needed */
+    font-style: italic;
+    color: #F2ECE7;
+}
+
+.quote h5 {
+    font-size:12px;
+    color:#F2ECE7;
+}
+
+/* google font-family */
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-section {
+    background-color: #2F2E2D; /* Set the background color of the title section */
+    padding: 20px; /* Add padding to create spacing around the title */
+}
+
+.title-section h1 {
+    font-size: 35px; /* Adjust the font size as needed */
+    color: #F2ECE7;
+}
+
+.title-section p {
+    font-size: 16px; /* Adjust the font size as needed */
+    color: #666;
+}
+.title-section h4 {
+    font-size:16px;
+    color:#F2ECE7;
+}
+
+.article-image img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Set a maximum width of 100% of the viewport width */
+    max-height: 100vh; /* Set a maximum height of 100% of the viewport height */
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+    font-size:15px;
+
+}
+
+
+    .image-container {
+      text-align: center;
+    }
+
+    .image-caption {
+      text-align: center;
+      font-style: italic;
+      color: #888; /* Customize the caption's style and color */
+    }
+  .article-image h2 {
+    text-align: center;
+  }
+
+  .header {
+  padding-top: 20px; /* Adjust the value as needed for the desired white space */
+}
+/*    max-width: 100%;*/
+/*    position: absolute; /* Set a position to control centering */*/
+    /*top: 50%; /* Position the top edge at the vertical center */
+/*    left: 50%; /* Position the left edge at the horizontal center */*/
+/*    transform: translate(-50%, -50%); /* Center the image using a translation */*/*/
