@@ -3,6 +3,27 @@ header {
 
 }
 
+/* for tablet */
+@media screen and (max-width: 767px) {
+    .grid-container {
+        width: 90%; 
+    }
+}
+
+/* for phone */
+@media screen and (max-width: 850px) {
+    .grid-container {
+        grid-template-columns: 1fr;  
+    }
+}
+
+/* for desktop*/
+@media screen and (max-width: 1300px) {
+    .grid-container {
+        width: 100%; 
+    }
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -178,7 +199,7 @@ h2 {
     font-size:15px;
 
 }
-<style>
+
 
 
 .left, .right {
@@ -190,18 +211,33 @@ h2 {
   float: left;
   width: 60%; /* The width is 60%, by default */
 }
+table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 0 auto; /* Center the table on the page */
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #333;
+      color: white;
+    }
 
 
 }
-</style>
 
-<style>
+
+
+
 
 @media screen and (max-width: 800px) {
   .left, .main, .right {
     width: 100%;
   }
-} </style>
+} 
 
     .image-container {
       text-align: center;
